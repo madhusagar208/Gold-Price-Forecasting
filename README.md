@@ -20,7 +20,7 @@ Time series forecasting is the process of using historical data to make predicti
 
 Naive Method: forecasting future values based on the most recent value.
 
-Moving Average: forecasting future values based on the average of the last several values.
+N-BEASTS: N-BEATS is a deep learning-based time series forecasting model developed by SenSiLabs. It uses a fully convolutional neural network architecture to perform forecasting, making it suitable for handling time series data of different lengths and with various levels of complexity. The N-BEATS model has two components: the backcast (past) component, which learns the past dependencies of the time series, and the forecast (future) component, which predicts future values. N-BEATS has shown good performance on a variety of time series forecasting tasks and can be trained end-to-end, making it a useful tool for time series forecasting..
 
 ARIMA (AutoRegressive Integrated Moving Average): a statistical model that uses the past values of a time series to make predictions.
 
